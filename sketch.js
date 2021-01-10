@@ -10,7 +10,7 @@ var BG;
 var dustbin,DI;
 
  function preload() {
-	BG = loadImage("iimgs/classroom.png");
+	//BG = loadImage("iimgs/classroom.png");
 	DI = loadImage("iimgs/dustbingreen.png");
  }
 
@@ -46,7 +46,7 @@ function setup() {
 
 
 function draw() {
-	background(BG);
+	background("black");
 	Engine.update(engine);
 	rectMode(CENTER);
 	/* console.log(World.mouseX);
