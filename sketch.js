@@ -11,7 +11,7 @@ var dustbin,DI;
 
  function preload() {
 	//BG = loadImage("iimgs/classroom.png");
-	DI = loadImage("iimgs/dustbingreen.png");
+	//DI = loadImage("iimgs/dustbingreen.png");
  }
 
 function setup() {
@@ -52,8 +52,8 @@ function draw() {
 	/* console.log(World.mouseX);
 	console.log(World.mouseY); */
 
-	console.log(PAPER1.x);
-	console.log(PAPER1.y);
+	/* console.log(PAPER1.x);
+	console.log(PAPER1.y); */
 
   keyPressed();
   
